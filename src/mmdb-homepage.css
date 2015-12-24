@@ -1,0 +1,38 @@
+a.mmdb-link, a.mmdb-link:focus, a.mmdb-link :hover {
+	color: #7a8288;
+}
+
+.mmdb-btn-default, .mmdb-btn-default:hover, .mmdb-btn-default:focus {
+	color: #c8c8c8;
+	text-shadow: none; /* Prevent inheritence from `body` */
+	background-color: #7a8288;
+	border: 1px solid #7a8288;
+}
+
+/* Start the vertical centering */
+.cover-wrapper {
+	height: 100%;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.cover {
+	padding: 30px 20px;
+}
+
+.cover .mmdb-btn-lg {
+	padding: 10px 20px;
+	font-weight: bold;
+}
+
+@media ( min-width : 768px) {
+	.cover-container {
+		width: 100%;
+	}
+}
+
+@media ( min-width : 960px) {
+	.cover-container {
+		width: 960px;
+	}
+}
