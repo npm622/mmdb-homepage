@@ -1,0 +1,25 @@
+{  
+   "name":"mmdb-homepage",
+   "version":"0.0.0",
+   "description":"angular homepage directive that allows a well to show anything other than an introduction",
+   "keywords":[],
+   "homepage":"https://github.com/npm622/mmdb-homepage#readme",
+   "bugs":{  
+      "url":"https://github.com/npm622/mmdb-homepage/issues"
+   },
+   "license":"MIT",
+   "author":"nick makes",
+   "repository":{  
+      "type":"git",
+      "url":"git+https://github.com/npm622/mmdb-homepage.git"
+   },
+   "devDependencies":{  
+      "fs":"0.0.2",
+      "gulp":"^3.9.0",
+      "gulp-angular-templatecache":"^1.8.0",
+      "gulp-bower":"0.0.11",
+      "gulp-clean":"^0.3.1",
+      "gulp-concat":"^2.6.0",
+      "gulp-replace-task":"^0.11.0"
+   }
+}
