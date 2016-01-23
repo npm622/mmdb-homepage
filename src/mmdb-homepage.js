@@ -37,7 +37,6 @@
 
 	function MmdbHomepageCtrl() {
 		var vm = this;
-		console.log(vm.links);
 	}
 
 	 @@templateCache

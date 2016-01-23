@@ -37,8 +37,7 @@
 
 	function MmdbHomepageCtrl() {
 		var vm = this;
-		console.log(vm.links);
 	}
 
-	 angular.module("mmdb.homepage").run(["$templateCache", function($templateCache) {$templateCache.put("mmdb-homepage.tmpl.html","<div class=\"container cover-wrapper\">\n    <div class=\"cover\">\n        <h1 class=\"cover-heading\">welcome.</h1>\n        <p class=\"lead\">this is the homepage. eventually, it will house an ng-transclude spot to place additional buttons/links/content. but for now, just\n            enjoy its simplicity.</p>\n        <p class=\"lead\">\n            <a href=\"#/dbAdmin\" class=\"btn mmdb-btn-lg mmdb-btn-default mmdb-link\">enter dashboard</a>\n        </p>\n    </div>\n</div>");}]);
+	 angular.module("mmdb.homepage").run(["$templateCache", function($templateCache) {$templateCache.put("mmdb-homepage.tmpl.html","<div class=\"container cover-wrapper\">\n    <div class=\"cover\">\n        <h1>welcome.</h1>\n        <p class=\"lead\">\n            this is the homepage. eventually, it will house a command center for everything you can do here. until then, <br /> just enjoy its simplicity.\n        </p>\n    </div>\n</div>");}]);
 }());
